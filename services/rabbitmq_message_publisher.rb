@@ -20,6 +20,6 @@ class RabbitmqMessagePublisher
   private
 
   def start_connection
-    Bunny.new.start
+    Bunny.new(host: 'rabbitmq').start
   end
 end
