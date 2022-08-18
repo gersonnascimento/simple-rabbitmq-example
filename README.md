@@ -1,7 +1,7 @@
 # Simple RabbitMq Example
 
 It's a simple system for learning how to use the RabbitMq.
-It's a service installer simulator, when requesting a installation, a message is sent to RabbitMq and another class read it.
+It's a service installer simulator, when requesting a installation, a message is sent to RabbitMq and another class reads it.
 
 ## How to use (we recommend using Docker)
 
